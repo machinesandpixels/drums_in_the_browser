@@ -48,13 +48,16 @@ h2{
     grid-gap: 2em; 
     grid-auto-rows: minmax(100px, auto);
     text-align: center;
+   
 }
 
 .wrapper > button{
     background-color: aqua;
+    border-radius: 6%;
 }
 
 /* every odd element within the wrapper */
 .wrapper > button:nth-child(odd){
     background: #ddd; 
+    border-radius: 6%;
 }
