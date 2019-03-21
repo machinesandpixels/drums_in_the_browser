@@ -1,14 +1,49 @@
 console.log("connected");
 
-const drum = document.querySelectorAll(".drum");
+document.addEventListener("keypress", function(event) {
 
-for (let i = 0; i < drum.length; i++) {
+    makeSound(event.key);
+  
+  });
+  
 
-    drum[i].addEventListener("click", function() {
+  function makeSound(key) {
+  
+    switch (key) {
+      case "j":
+        let clap = new Audio("samples/clap.wav");
+        clap.play();
+        break;
+  
+      case "a":
+        let snare = new Audio("samples/snare.wav");
+        snare.play();
+        break;
+  
+      case "f":
+        let kick = new Audio('samples/kick_1.wav');
+        kick.play();
+        break;
+  
+      case "w":
+        let hiHat = new Audio('samples/hi_hat.wav');
+        hiHat.play();
+        break;
+  
+      case "c":
+        let tom = new Audio('samples/tom_3.wav');
+        tom.play();
+        break;
+  
+      case "u":
+        let crash = new Audio('samples/crash.wav');
+        crash.play();
+        break;
 
-        console.log(this); 
-       
+      default: console.log(key);
+  
+    }
+  }
 
-    }); 
-
-   } 
+  
+  
