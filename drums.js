@@ -1,11 +1,24 @@
 console.log("connected");
 
+const drum = document.querySelectorAll(".drum");
+
+for (let i = 0; i < drum.length; i++) {
+
+drum[i].addEventListener("click", function(){
+
+  this.style.backgroundColor = "black";
+  
+
+});
+  
+  
+}
+
 document.addEventListener("keypress", function(event) {
 
     makeSound(event.key);
-  
-  });
-  
+
+});
 
   function makeSound(key) {
   
@@ -44,6 +57,3 @@ document.addEventListener("keypress", function(event) {
   
     }
   }
-
-  
-  
