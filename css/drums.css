@@ -20,6 +20,11 @@ h2{
     
 }
 
+.channel{
+    display: flex;
+    justify-content: center;
+}
+
 .max{
     
     max-width: 900px;
