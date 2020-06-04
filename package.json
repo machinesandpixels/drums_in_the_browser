@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/machinesandpixels/drums_in_the_browser/issues"
   },
-  "homepage": "https://github.com/machinesandpixels/drums_in_the_browser#readme"
+  "homepage": "https://github.com/machinesandpixels/drums_in_the_browser#readme",
+  "dependencies": {
+    "pizzicato": "^0.6.4"
+  }
 }
