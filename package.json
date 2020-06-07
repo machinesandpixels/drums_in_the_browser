@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/machinesandpixels/drums_in_the_browser#readme",
   "dependencies": {
-    "pizzicato": "^0.6.4"
+    "pizzicato": "^0.6.4",
+    "soundcloud": "^3.3.2"
   }
 }
