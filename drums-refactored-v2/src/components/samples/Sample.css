@@ -1,0 +1,10 @@
+.wrapper > button{
+    background-color: aqua;
+    border-radius: 3%;
+}
+
+/* every odd element within the wrapper */
+.wrapper > button:nth-child(odd){
+    background: #ddd; 
+    border-radius: 3%;
+}

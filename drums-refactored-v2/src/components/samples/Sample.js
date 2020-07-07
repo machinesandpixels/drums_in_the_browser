@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import './Sample.css';
 
 const Sample = (props) => {
     const { sound, letter } = props.sample;

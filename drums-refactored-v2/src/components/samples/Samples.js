@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Sample from './Sample';
+import './Samples.css';
 
 class Samples extends Component {
     state = {
@@ -16,11 +17,9 @@ class Samples extends Component {
     render() {
 
         return (
-             
             <div className="main">
                 <div className="wrapper">
                     { this.state.samples.map(sample => (
-                        
                         <Sample key={ sample.id } sample={ sample }/>
                     ))}
                 </div>
