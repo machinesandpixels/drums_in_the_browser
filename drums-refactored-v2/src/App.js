@@ -5,10 +5,9 @@ import './App.css';
 class App extends Component {
 
   render(){
-    const name = 'Drums';
     return (
       <div className="max">
-       <h1>{ name } in the Browser</h1>
+       <h1> Drums in the Browser</h1>
        <Samples />
       </div>
     );

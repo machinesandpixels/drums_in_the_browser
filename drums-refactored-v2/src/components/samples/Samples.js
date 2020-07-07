@@ -1,22 +1,29 @@
 import React, { Component } from 'react';
-import Clap from './Clap';
+import Sample from './Sample';
 
 class Samples extends Component {
     state = {
         samples: [
-            {"Clap": 'J'},
-            {"Snare": "A"},
-            {"Kick": "F"},
-            {"Hi-Hat": "W"},
-            {"Tom": "C"},
-            {"Crash": "U"},
+            {"id":1, "sound":"Clap", "letter":'J'},
+            {"id":2, "sound": "Snare","letter":"A"},
+            {"id":3, "sound": "Kick","letter":"F"},
+            {"id":4, "sound": "Hi-Hat","letter":"W"},
+            {"id":5, "sound": "Tom","letter":"C"},
+            {"id":6, "sound": "Crash","letter":"U"},
         ]
     }
 
     render() {
+
         return (
+             
             <div className="main">
-                <Clap />
+                <div className="wrapper">
+                    { this.state.samples.map(sample => (
+                        
+                        <Sample key={ sample.id } sample={ sample }/>
+                    ))}
+                </div>
             </div>
         )
     }
