@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Crash extends Component {
+class Crash extends Component {
     render() {
         return (
             <div>

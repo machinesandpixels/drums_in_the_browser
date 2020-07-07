@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class HighHat extends Component {
+class HighHat extends Component {
     render() {
         return (
             <div>

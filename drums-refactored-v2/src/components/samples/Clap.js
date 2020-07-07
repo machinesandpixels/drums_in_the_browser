@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 
-export class Clap extends Component {
+class Clap extends Component {
     render() {
         return (
             <Fragment>

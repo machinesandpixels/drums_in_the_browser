@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Clap from './components/samples/Clap';
+import Samples from './components/samples/Samples';
 import './App.css';
 
 class App extends Component {
@@ -7,9 +7,9 @@ class App extends Component {
   render(){
     const name = 'Drums';
     return (
-      <div className="App">
-       <h1>Hello { name }</h1>
-       <Clap />
+      <div className="max">
+       <h1>{ name } in the Browser</h1>
+       <Samples />
       </div>
     );
   }
