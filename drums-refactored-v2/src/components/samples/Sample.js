@@ -3,10 +3,10 @@ import './Sample.css';
 
 const Sample = (props) => {
     const { sound, letter } = props.sample;
-    
+
     return (
         <Fragment>
-            <button className="drum">
+            <button  onClick={ props.playSound } className="drum">
                 <h2> { sound } </h2>
                 <span>{ letter }</span>
             </button>

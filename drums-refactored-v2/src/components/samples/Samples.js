@@ -14,13 +14,21 @@ class Samples extends Component {
         ]
     }
 
+    playSound = () => {
+        alert("Sound Played");
+      }
+
     render() {
 
         return (
             <div className="main">
                 <div className="wrapper">
                     { this.state.samples.map(sample => (
-                        <Sample key={ sample.id } sample={ sample }/>
+                        <Sample 
+                            key={ sample.id } 
+                            sample={ sample }
+                            playSound={ this.playSound }
+                        />
                     ))}
                 </div>
             </div>
