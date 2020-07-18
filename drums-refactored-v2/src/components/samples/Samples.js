@@ -14,9 +14,9 @@ class Samples extends Component {
         ]
     }
 
-    playSound = () => {
+    playSound = (event) => {
         alert("Sound Played");
-      }
+    }
 
     render() {
 
