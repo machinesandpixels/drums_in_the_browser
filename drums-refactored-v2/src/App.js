@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Samples from './components/samples/Samples';
+import Controls from './components/controls/Controls';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,12 @@ class App extends Component {
     return (
       <div className="max">
        <h1> Drums in the Browser</h1>
-       <Samples />
+       <section>
+        <Controls />
+       </section>
+       <section>
+        <Samples />
+       </section>
       </div>
     );
   }

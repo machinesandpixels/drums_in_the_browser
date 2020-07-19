@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-function Record() {
+const Record = () => {
     return (
-        <div>
-            
-        </div>
+        <button>Record</button>
     )
 }
 

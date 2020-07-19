@@ -1,10 +1,8 @@
 import React from 'react';
 
-function Play() {
+const Play = () => {
     return (
-        <div>
-            
-        </div>
+        <button>Play</button>
     )
 }
 

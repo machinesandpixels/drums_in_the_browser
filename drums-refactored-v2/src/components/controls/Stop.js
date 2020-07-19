@@ -1,10 +1,8 @@
 import React from 'react';
 
-function Stop() {
+const Stop = () => {
     return (
-        <div>
-            
-        </div>
+        <button>Stop</button>
     )
 }
 
